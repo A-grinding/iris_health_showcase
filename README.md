@@ -150,36 +150,6 @@ Cloud Firestore
 ✔ Clean & Consistent UI
 ✔ Chatbot Feature Integration
 
-🛠️ Installation
-git clone https://github.com/your-username/iris-health.git
-cd iris-health
-flutter pub get
-flutter run
-
-Firebase Setup Required
-
-Add google-services.json
-
-Enable Email/Password Authentication
-
-Configure Firestore Database
-
-Apply Firestore Security Rules
-
-📂 Required Assets Structure
-/assets
-   splash.jpeg
-   login_student.jpeg
-   login_doctor.jpeg
-   email_verification.jpeg
-   doctors_list.jpeg
-   filter_specialization.jpeg
-   doctor_patients.jpeg
-   write_prescription.jpeg
-   profile.jpeg
-   history.jpeg
-   iry_bot.jpeg
-
 🚀 Future Enhancements
 
 Push Notifications
@@ -195,6 +165,5 @@ AI-powered chatbot upgrade
 Analytics dashboard
 
 👨‍💻 Author
-
 Abhishek Dwivedi
 Flutter & Firebase Developer
