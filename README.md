@@ -31,7 +31,7 @@ Students can book and track consultations, while doctors can manage queues and p
 - Live Queue Tracking  
 - Appointment History  
 - View Prescriptions  
-- AI-based Doctor Suggestion (**IRY Bot**)  
+- Doctor Suggestion (**IRY Bot**)  
 
 ---
 
@@ -140,7 +140,7 @@ Doctors can:
 
 ---
 
-## 🤖 IRY BOT – Smart Medical Assistant
+## 🤖 IRY BOT
 
 <p align="center">
   <img src="assets/iry_bot.jpeg" width="250"/>
