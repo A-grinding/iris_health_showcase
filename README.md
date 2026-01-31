@@ -1,169 +1,211 @@
-🌿 IRIS HEALTH
+# 🌿 IRIS HEALTH  
 
-🏥 Smart Campus Health Management System
-Built with Flutter, Dart & Firebase
+## 🏥 Smart Campus Health Management System  
+### Built with Flutter, Dart & Firebase  
 
-<p align="center"> <img src="assets/splash.jpeg" width="220"/> </p>
-🚀 About The Project
+<p align="center">
+  <img src="assets/splash.jpeg" width="220"/>
+</p>
 
-IRIS HEALTH is a role-based healthcare management application built for campus environments.
+---
+
+# 🚀 About The Project
+
+**IRIS HEALTH** is a role-based healthcare management application built for campus environments.
 
 It enables seamless interaction between:
 
-🎓 Students
-
-🩺 Doctors
+- 🎓 **Students**
+- 🩺 **Doctors**
 
 Students can book and track consultations, while doctors can manage queues and provide prescriptions — all powered by Firebase.
 
-🎯 Key Features
-👩‍🎓 Student Side
+---
 
-Secure Email Authentication
+# 🎯 Key Features
 
-View Available Doctors
+## 👩‍🎓 Student Side
 
-Live Queue Tracking
+- Secure Email Authentication  
+- View Available Doctors  
+- Live Queue Tracking  
+- Appointment History  
+- View Prescriptions  
+- AI-based Doctor Suggestion (**IRY Bot**)  
 
-Appointment History
+---
 
-View Prescriptions
+## 🩺 Doctor Side
 
-AI-based Doctor Suggestion (IRY Bot)
+- Secure Role-Based Login  
+- View Assigned Patients  
+- See Patient Names in Queue  
+- Write & Submit Prescriptions  
+- Update Consultation Status  
 
-🩺 Doctor Side
+---
 
-Secure Role-Based Login
+# 📱 App Screens
 
-View Assigned Patients
+---
 
-See Patient Names in Queue
+## 🔐 Authentication System
 
-Write & Submit Prescriptions
+<p align="center">
+  <img src="assets/login_student.jpeg" width="250"/>
+  <img src="assets/login_doctor.jpeg" width="250"/>
+</p>
 
-Update Consultation Status
+- Email & Password Login  
+- Role-based routing  
+- Firebase Authentication integration  
 
-📱 App Screens
-🔐 Authentication System
-<p align="center"> <img src="assets/login_student.jpeg" width="250"/> <img src="assets/login_doctor.jpeg" width="250"/> </p>
+---
 
-Email & Password Login
+## 📧 Email Verification (Firebase Auth)
 
-Role-based routing
+<p align="center">
+  <img src="assets/email_verification.jpeg" width="250"/>
+</p>
 
-Firebase Authentication integration
+- Secure account activation  
+- Prevents fake registrations  
 
-📧 Email Verification (Firebase Auth)
-<p align="center"> <img src="assets/email_verification.jpeg" width="250"/> </p>
+---
 
-Secure account activation
+## 👨‍⚕️ Doctors Dashboard
 
-Prevents fake registrations
+<p align="center">
+  <img src="assets/doctors_list.jpeg" width="250"/>
+  <img src="assets/filter_specialization.jpeg" width="250"/>
+</p>
 
-👨‍⚕️ Doctors Dashboard
-<p align="center"> <img src="assets/doctors_list.jpeg" width="250"/> <img src="assets/filter_specialization.jpeg" width="250"/> </p>
+- Filter by specialization  
+- Live queue count  
+- Active consultations  
 
-Filter by specialization
+---
 
-Live queue count
+## 🧑‍⚕️ Doctor – View Patients
 
-Active consultations
-
-🧑‍⚕️ Doctor – View Patients
-<p align="center"> <img src="assets/doctor_patients.jpeg" width="250"/> </p>
+<p align="center">
+  <img src="assets/doctor_patients.jpeg" width="250"/>
+</p>
 
 Doctors can:
 
-View patient names
+- View patient names  
+- See their position in queue  
+- Access consultation details  
 
-See their position in queue
+---
 
-Access consultation details
+## 📝 Doctor – Write Prescription
 
-📝 Doctor – Write Prescription
-<p align="center"> <img src="assets/write_prescription.jpeg" width="250"/> </p>
+<p align="center">
+  <img src="assets/write_prescription.jpeg" width="250"/>
+</p>
 
 Doctors can:
 
-Type medical prescriptions
+- Type medical prescriptions  
+- Submit updates to Firestore  
+- Instantly reflect data in student history  
 
-Submit updates to Firestore
+---
 
-Instantly reflect data in student history
+## 👤 Student Profile
 
-👤 Student Profile
-<p align="center"> <img src="assets/profile.jpeg" width="250"/> </p>
+<p align="center">
+  <img src="assets/profile.jpeg" width="250"/>
+</p>
 
-View consultation count
+- View consultation count  
+- Unique student ID  
+- Logout securely  
 
-Unique student ID
+---
 
-Logout securely
+## 📜 Appointment History
 
-📜 Appointment History
-<p align="center"> <img src="assets/history.jpeg" width="250"/> </p>
+<p align="center">
+  <img src="assets/history.jpeg" width="250"/>
+</p>
 
-Doctor name
+- Doctor name  
+- Specialization  
+- Date  
+- Prescription notes  
 
-Specialization
+---
 
-Date
+## 🤖 IRY BOT – Smart Medical Assistant
 
-Prescription notes
-
-🤖 IRY BOT – Smart Medical Assistant
-<p align="center"> <img src="assets/iry_bot.jpeg" width="250"/> </p>
+<p align="center">
+  <img src="assets/iry_bot.jpeg" width="250"/>
+</p>
 
 Users describe symptoms and receive specialist suggestions.
 
-Example:
+**Example:**
 
-“I feel feverish and have skin rashes”
-→ Suggestion: Dermatologist
+> “I feel feverish and have skin rashes”  
+> → Suggestion: Dermatologist  
 
-🏗️ Tech Stack
-Technology	Usage
-Flutter	Cross-platform UI
-Dart	Application Logic
-Firebase Authentication	Secure Login
-Cloud Firestore	Real-time Database
-Firebase Email Action Links	Email Verification
-🧠 Architecture Overview
+---
+
+# 🏗️ Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| **Flutter** | Cross-platform UI development |
+| **Dart** | Application logic |
+| **Firebase Authentication** | Secure login & email verification |
+| **Cloud Firestore** | Real-time database |
+| **Firebase Email Action Links** | Email verification system |
+
+---
+
+# 🧠 Architecture Overview
+
 Flutter UI
-     ↓
+↓
 Firebase Authentication
-     ↓
+↓
 Cloud Firestore
-     ├── Users Collection
-     ├── Doctors Collection
-     ├── Appointments Collection
-     ├── Prescriptions Collection
-     └── Queue Management
+├── Users Collection
+├── Doctors Collection
+├── Appointments Collection
+├── Prescriptions Collection
+└── Queue Management
 
-🔥 What Makes This Project Strong
 
-✔ Two-Sided Role-Based System
-✔ Real-Time Firestore Updates
-✔ Doctor-to-Student Data Flow
-✔ Prescription Management System
-✔ Secure Authentication Flow
-✔ Clean & Consistent UI
-✔ Chatbot Feature Integration
+---
 
-🚀 Future Enhancements
+# 🔥 What Makes This Project Strong
 
-Push Notifications
+✔ Two-Sided Role-Based System  
+✔ Real-Time Firestore Updates  
+✔ Doctor-to-Student Data Flow  
+✔ Prescription Management System  
+✔ Secure Authentication Flow  
+✔ Clean & Consistent UI  
+✔ Chatbot Feature Integration  
 
-Time-slot based appointment booking
+---
 
-Doctor availability scheduling
+# 🚀 Future Enhancements
 
-Admin dashboard
+- Push Notifications  
+- Time-slot based appointment booking  
+- Doctor availability scheduling  
+- Admin dashboard  
+- AI-powered chatbot upgrade  
+- Analytics dashboard  
 
-AI-powered chatbot upgrade
+---
 
-Analytics dashboard
+# 👨‍💻 Author
 
-👨‍💻 Author
-Abhishek Dwivedi
-Flutter & Firebase Developer
+**Abhishek Dwivedi**  
+Flutter & Firebase Developer  
