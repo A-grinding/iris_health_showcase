@@ -86,7 +86,7 @@ Students can book and track consultations, while doctors can manage queues and p
 
 ---
 
-## 🧑‍⚕️ Doctor – View Patients
+## 🧑‍⚕️ Doctor's View of Patients
 
 <p align="center">
   <img src="assets/doctor_patients.jpeg" width="250"/>
@@ -100,7 +100,7 @@ Doctors can:
 
 ---
 
-## 📝 Doctor – Write Prescription
+## 📝 Doctors Can Write Prescription
 
 <p align="center">
   <img src="assets/write_prescription.jpeg" width="250"/>
@@ -110,7 +110,8 @@ Doctors can:
 
 - Type medical prescriptions  
 - Submit updates to Firestore  
-- Instantly reflect data in student history  
+- Instantly reflect data in student history
+- Reduces PaperWork by 80%
 
 ---
 
