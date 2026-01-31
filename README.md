@@ -164,6 +164,7 @@ Users describe symptoms and receive specialist suggestions.
 | **Firebase Authentication** | Secure login & email verification |
 | **Cloud Firestore** | Real-time database |
 | **Firebase Email Action Links** | Email verification system |
+| **Hive** | Offline Access |
 
 ---
 
